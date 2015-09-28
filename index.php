@@ -1,8 +1,6 @@
 <?php 
 require_once "../phpinc/config.php"; 
 require_once "../phpinc/functions.php"; 
-//set cookie promo code
-
 $form_thin = false;
 
 if (isset($_GET['f'])) { 
@@ -41,10 +39,8 @@ if (isset($_GET['p3'])) {
 	setcookie('phone', $phone, time() + (86400 * 7), "/"); // 86400 = 1 day
 	} else if (isset($_COOKIE['phone'])) {
 		$phone = $_COOKIE['phone'];
-	} 
-			
+	} 			
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +50,7 @@ if (isset($_GET['p3'])) {
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="icon" href="favicon.ico">
-<title>CENTRAL EQUITY - 3 Bedroom  Skyhomes</title>
+<title>CENTRAL EQUITY - 3 Bedroom Skyhomes</title>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
