@@ -1,14 +1,14 @@
 //colors
-$color_0: rgb(255, 255, 255);
+$white: rgb(255, 255, 255);
 $color_1: rgba(0, 0, 20, 0.1);
 $color_2: rgb(19, 25, 33);
 $color_3: rgba(19, 25, 33, 0.9);
 $color_4: rgba(19, 25, 33, 0.4);
-$color_5: rgb(255, 25, 33);
+$enq_red: rgb(255, 25, 33);
 $color_6: rgb(217, 218, 215);
 $color_7: rgba(217, 218, 215, 0.5);
 $color_8: rgba(217, 218, 215, 0.3);
-$color_9: rgb(230, 16, 67);
+$enq_red: rgb(230, 16, 67);
 $color_10: rgb(62, 74, 97);
 $color_11: rgb(26, 38, 57);
 $color_12: rgba(119, 125, 133, 0.3);
@@ -34,7 +34,7 @@ $url_0: url('../images/feature.jpg');
 //original selectors
 //#stage nav a, #stage nav li
 %extend_1 {
-	color: $color_0;
+	color: $white;
 	font-weight: 700;
 	text-transform: uppercase;
 	height: 34px;
@@ -75,7 +75,7 @@ $url_0: url('../images/feature.jpg');
 	height: 40px;
 	width: 40px;
 	background-color: $color_2;
-	color: $color_0;
+	color: $white;
 	cursor: pointer;
 	z-index: 999;
 	display: none;
@@ -127,7 +127,7 @@ h5 {
 	position: relative;
 }
 .white {
-	color: $color_0;
+	color: $white;
 }
 .col-flat {
 	color: $color_6;
@@ -142,10 +142,10 @@ h5 {
 	background-color: $color_8;
 }
 .col-enq {
-	color: $color_9;
+	color: $enq_red;
 }
 .col-enq-bg {
-	background-color: $color_9;
+	background-color: $enq_red;
 }
 .col-smoke {
 	color: $color_10;
@@ -161,8 +161,8 @@ h5 {
 }
 .btn {
 	background-color: transparent;
-	border: 1px solid $color_0;
-	color: $color_0;
+	border: 1px solid $white;
+	color: $white;
 	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 	box-shadow: none;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
@@ -171,7 +171,7 @@ h5 {
 	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 	transition: all 100ms ease-out;
 	&:hover {
-		background-color: $color_0;
+		background-color: $white;
 	}
 	&.enq_this {
 		display: block;
@@ -198,7 +198,7 @@ h5 {
 	}
 }
 .btn-solid {
-	background-color: $color_0;
+	background-color: $white;
 	&:hover {
 		background-color: transparent;
 	}
@@ -208,8 +208,8 @@ h5 {
 	border-color: $color_6;
 }
 .btn-enq {
-	color: $color_9;
-	border-color: $color_9;
+	color: $enq_red;
+	border-color: $enq_red;
 }
 .btn-smoke {
 	color: $color_10;
@@ -225,24 +225,24 @@ h5 {
 	color: $color_11;
 }
 .btn-solid-enq {
-	background-color: $color_9;
-	border-color: $color_9;
-	color: $color_0;
+	background-color: $enq_red;
+	border-color: $enq_red;
+	color: $white;
 	&:hover {
-		background-color: $color_0;
-		border-color: $color_9;
-		color: $color_9;
+		background-color: $white;
+		border-color: $enq_red;
+		color: $enq_red;
 	}
 }
 .btn-solid-smoke {
 	background-color: $color_10;
 	border-color: $color_10;
-	color: $color_0;
+	color: $white;
 }
 .btn-solid-steel {
 	background-color: $color_11;
 	border-color: $color_11;
-	color: $color_0;
+	color: $white;
 }
 #stage {
 	position: relative;
@@ -284,7 +284,7 @@ h5 {
 }
 #page {
 	position: relative;
-	background-color: $color_0;
+	background-color: $white;
 }
 .pricey {
 	display: inline-block;
@@ -315,7 +315,7 @@ h5 {
 }
 #contact {
 	background: $color_3;
-	color: $color_0;
+	color: $white;
 	padding-top: 00px;
 }
 .phone-box {
@@ -326,7 +326,7 @@ h5 {
 	padding-bottom: 15px;
 }
 #statement {
-	background-color: $color_0;
+	background-color: $white;
 	padding-top: 80px;
 	margin-bottom: 20px;
 	p {
@@ -372,7 +372,7 @@ h5 {
 		top: -30px;
 		height: 60px;
 		width: 200px;
-		color: $color_0;
+		color: $white;
 		z-index: 999;
 		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 		box-shadow: 10px 10px 0 $color_1;
@@ -389,7 +389,7 @@ h5 {
 	bottom: 6px;
 	left: 6px;
 	background-color: $color_14;
-	color: $color_0;
+	color: $white;
 	padding: 3px 8px;
 	font-size: 12px;
 }
@@ -399,7 +399,7 @@ h5 {
 	right: 0;
 	height: 60px;
 	width: 40px;
-	color: $color_0;
+	color: $white;
 	font-size: 20px;
 	text-align: center;
 	vertical-align: bottom;
@@ -412,7 +412,7 @@ h5 {
 	left: 5px;
 	top: -20px;
 	vertical-align: middle;
-	color: $color_0;
+	color: $white;
 	z-index: 999;
 	font-size: 32px;
 	line-height: 40px;
@@ -430,7 +430,7 @@ h5 {
 	background-image: $url_0;
 	background-size: cover;
 	min-height: 300px;
-	color: $color_0;
+	color: $white;
 	padding-top: 100px;
 	h1 {
 		font-size: 42px;
@@ -445,7 +445,7 @@ div {
 		border: 1px solid $color_16;
 		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 		border-radius: 0;
-		background-color: $color_0;
+		background-color: $white;
 	}
 	&.mapslide {
 		width: 100%;
@@ -458,7 +458,7 @@ div {
 	height: 40px;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 8px;
-	background-color: $color_0;
+	background-color: $white;
 	padding: 8px 1em;
 	font-size: 14px;
 	line-height: 24px;
@@ -484,7 +484,7 @@ div {
 	border: none;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 8px;
-	background-color: $color_0;
+	background-color: $white;
 }
 .input-group-addon::after {
 	content: '';
@@ -543,7 +543,7 @@ div {
 	display: none;
 }
 footer {
-	background-color: $color_0;
+	background-color: $white;
 	margin-top: 0;
 	a {
 		text-decoration: underline;
@@ -626,7 +626,7 @@ footer {
         height: 40px;
         width: 40px;
         background-color: $color_2;
-        color: $color_0;
+        color: $white;
         cursor: pointer;
         z-index: 999;
         display: none;
@@ -652,7 +652,7 @@ footer {
 		&:hover {
 			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 			box-shadow: 0 0 6px $color_4;
-			background-color: $color_5;
+			background-color: $enq_red;
 		}
 		&.ev_button_expanded::after {
 			content: '\e208';
@@ -666,11 +666,11 @@ footer {
 		font-weight: normal;
 		line-height: 40px;
 		vertical-align: top;
-		color: $color_0;
+		color: $white;
 		font-size: 22px;
 	}
 	.ev_button_expanded {
-		background-color: $color_5;
+		background-color: $enq_red;
 		right: -14px;
 	}
 	.mapcanvas {
@@ -702,7 +702,7 @@ form.thinform {
 		padding: 8px 1em;
 		font-size: 24px;
 		line-height: 44px;
-		color: $color_0;
+		color: $white;
 		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 		border-radius: 0;
 	}
@@ -725,17 +725,17 @@ form.thinform {
 		left: 68px;
 	}
 	.btn-solid-enq:hover {
-		background-color: $color_9;
-		border-color: $color_9;
-		color: $color_0;
+		background-color: $enq_red;
+		border-color: $enq_red;
+		color: $white;
 	}
 	div.input-group {
 		border: none;
-		border-bottom: 1px solid $color_0;
+		border-bottom: 1px solid $white;
 		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 		border-radius: 0;
 		background-color: $color_21;
-		color: $color_0;
+		color: $white;
 		font-weight: 100;
 		font-style: italic;
 	}
@@ -756,7 +756,7 @@ li.icons {
 	width: 52px;
 	text-align: center;
 	line-height: 26px;
-	color: $color_0;
+	color: $white;
 	background-color: $color_2;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 4px;
