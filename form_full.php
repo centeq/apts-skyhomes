@@ -3,7 +3,7 @@
   <input type="hidden" name="<?= $FIELD_DEPT_NAME ?>" value="CELAND" />
   <input type="hidden" name="<?= $FIELD_REDIRECT ?>" value="/skyhomes/step_success.php" />
   <input type="hidden" name="max id" value="<?php echo $_GET['mx']?>"  />
-  <input type="hidden" name="subject" value="CE-APTS Luxury Residences " id="subject" />
+  <input type="hidden" name="subject" value="CE AUS Skyhomes " id="subject" />
   <input type="hidden" name="<?= $FIELD_SEND_CUSTOMER_MAIL ?>" id="send_conf" value="" />
   <div class="important_check">
     <label for="<?= $FIELD_SPAM ?>" class="important_check">
