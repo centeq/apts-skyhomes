@@ -7,8 +7,8 @@ $color_mirage_50_approx: rgba(19,25,33,0.5);
 
 //@extend-elements
 //original selectors
-//.sm_heroslides_controlls div, .sm_heroslides_controlls div span
-%extend_1 {
+//.heroslides_controlls.sm_heroslides_controlls div, .heroslides_controlls.sm_heroslides_controlls div span
+%small_controlls {
 	height: 40px;
 	width: 40px;
 	font-size: 26px;
@@ -16,7 +16,7 @@ $color_mirage_50_approx: rgba(19,25,33,0.5);
 }
 
 //original selectors
-//.sm_heroslides_controlls div.listing_next, .sm_heroslides_controlls div.listing_prev
+//.heroslides_controlls.sm_heroslides_controlls div.listing_next, .heroslides_controlls.sm_heroslides_controlls div.listing_prev
 %extend_2 {
 	height: 40px;
 	width: 40px;
@@ -132,19 +132,22 @@ body {
 		}
 	}
 }
-.sm_heroslides_controlls {
+.heroslides_controlls.sm_heroslides_controlls {
 	position: absolute;
 	right: 15px;
 	bottom: 0;
 	left: auto;
 	z-index: 900;
-	.listing_prev {
+	
+    .listing_prev {
 		visibility: hidden;
 	}
-	div {
-		@extend %extend_1;
-		span {
-			@extend %extend_1;
+	
+    div {
+		@extend %small_controlls;    
+		
+        span {
+			@extend %small_controlls;
 			&:hover {
 				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 				box-shadow: 0 0 6px $color_mirage_50_approx;
@@ -159,13 +162,14 @@ body {
 	}
 }
 @media(min-width: 480px) {
-	.sm_heroslides_controlls {
+	.heroslides_controlls.sm_heroslides_controlls {
 		position: absolute;
 		right: 0;
 		bottom: 40px;
 		left: 0;
 		z-index: 900;
-		.listing_prev {
+		
+        .listing_prev {
 			visibility: visible;
 		}
 	}
