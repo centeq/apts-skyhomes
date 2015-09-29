@@ -20,3 +20,9 @@ fonts/_notes/dwsync.xml
 images/_notes/dwsync.xml
 
 images/slider/_notes/dwsync.xml
+
+*dwsync.xml
+
+*.scssc
+
+.sass-cache/

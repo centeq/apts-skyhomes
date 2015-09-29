@@ -1,10 +1,9 @@
 //colors
 $white: #ffffff;
-$color_mirage_20_approx: rgba(19,25,33,0.2);
+$color_mirage_20_approx: rgba(19, 25, 33, 0.2);
 $color_pickled_bluewood_approx: rgba(49, 65, 82, 1);
-$color_mirage_approx: rgba(19,25,33,1);
-$color_mirage_50_approx: rgba(19,25,33,0.5);
-
+$color_mirage_approx: rgba(19, 25, 33, 1);
+$color_mirage_50_approx: rgba(19, 25, 33, 0.5);
 //@extend-elements
 //original selectors
 //.heroslides_controlls.sm_heroslides_controlls div, .heroslides_controlls.sm_heroslides_controlls div span
@@ -14,7 +13,6 @@ $color_mirage_50_approx: rgba(19,25,33,0.5);
 	font-size: 26px;
 	line-height: 40px;
 }
-
 //original selectors
 //.heroslides_controlls.sm_heroslides_controlls div.listing_next, .heroslides_controlls.sm_heroslides_controlls div.listing_prev
 %extend_2 {
@@ -22,8 +20,6 @@ $color_mirage_50_approx: rgba(19,25,33,0.5);
 	width: 40px;
 	background-color: $color_mirage_approx;
 }
-
-
 @charset "UTF-8";
 body {
 	#heroslides {
@@ -54,15 +50,22 @@ body {
 	height: 560px;
 	margin: 0;
 	padding: 0;
-	
-    div.words {
+	div.words {
 		position: absolute;
 		bottom: 40%;
 		left: 0;
 		right: 0;
 		z-index: 2;
 		
-        h1 {
+		div.small-text {
+			position: absolute;
+			color:#ffffff;
+			z-index: 9999;
+			font-size: 12px;
+			margin-top: 200px;
+		}
+		
+		h1 {
 			color: $white;
 			text-transform: uppercase;
 			font-size: 86px;
@@ -140,15 +143,12 @@ body {
 	bottom: 0;
 	left: auto;
 	z-index: 900;
-	
-    .listing_prev {
+	.listing_prev {
 		visibility: hidden;
 	}
-	
-    div {
-		@extend %small_controlls;    
-		
-        span {
+	div {
+		@extend %small_controlls;
+		span {
 			@extend %small_controlls;
 			&:hover {
 				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
@@ -170,8 +170,7 @@ body {
 		bottom: 40px;
 		left: 0;
 		z-index: 900;
-		
-        .listing_prev {
+		.listing_prev {
 			visibility: visible;
 		}
 	}
@@ -224,16 +223,12 @@ body {
 	}
 }
 @-moz-keyframes move {
-	from {
-	}
-	to {
-	}
+	from {}
+	to {}
 }
 @-webkit-keyframes move {
-	from {
-	}
-	to {
-	}
+	from {}
+	to {}
 }
 @keyframes move {
 	from {
@@ -250,16 +245,12 @@ body {
 	}
 }
 @-moz-keyframes reverse_move {
-	from {
-	}
-	to {
-	}
+	from {}
+	to {}
 }
 @-webkit-keyframes reverse_move {
-	from {
-	}
-	to {
-	}
+	from {}
+	to {}
 }
 @keyframes reverse_move {
 	from {
@@ -276,16 +267,12 @@ body {
 	}
 }
 @-moz-keyframes vert_move {
-	from {
-	}
-	to {
-	}
+	from {}
+	to {}
 }
 @-webkit-keyframes vert_move {
-	from {
-	}
-	to {
-	}
+	from {}
+	to {}
 }
 @keyframes vert_move {
 	from {

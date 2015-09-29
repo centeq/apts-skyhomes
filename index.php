@@ -77,7 +77,11 @@
                         <a href="#contact" class="btn btn-solid-enq btn-rounded go_enquire">ENQUIRE</a></div>
                 </div>
             </nav>
-            <div id="heroslides" class="heroslides cycle-slideshow" data-cycle-fx="fadeout" data-cycle-speed="1000" data-cycle-timeout="6000" data-cycle-slides="> div" data-cycle-prev="#heroslides_prev" data-cycle-next="#heroslides_next">
+            <div id="heroslides" class="heroslides cycle-slideshow" 
+               data-cycle-fx="fadeout" 
+               data-cycle-speed="1000" 
+               data-cycle-timeout="96000" 
+               data-cycle-slides="> div" data-cycle-prev="#heroslides_prev" data-cycle-next="#heroslides_next">
                 <div class="hero">
                     <div class="words active-words">
                         <div class="container">
@@ -101,9 +105,13 @@
                         <div class="container">
                             <h1>inner-city </h1>
                             <h2>living at its finest</h2>
+                            <div class="small-text">Previously completed apartment</div>
                         </div>
                     </div>
-                    <div class="heroslides " style="background-image:url(images/slider/bed.jpg)"></div>
+                    
+                    <div class="heroslides " style="background-image:url(images/slider/bed.jpg)">
+        
+                    </div>
                 </div>
             </div>
             <div id="heroslides_controlls" class="heroslides_controlls">
@@ -115,15 +123,15 @@
             <section id="statement">
                 <div class="container">
                     <div class="row ">
-                        <div class="col-lg-7">
+                        <div class="col-sm-12 col-lg-7">
                             <h1 class="col-smoke"><strong>
                                 <?php
                                 if (isset($fname)) { echo $fname.', welcome';} 
                                 else { echo 'Welcome'; }
-                                ?> </strong> to the peak of inner-city living. </h1>
+                                ?> </strong> to the peak of inner-city living.</h1>
                             <p>We’re pleased to introduce these spectacular 3 bedroom residences featuring sky-high views and stunning interior design. Priced from $1.49M for the ultimate inner-city lifestyle.</p>
                         </div>
-                        <div class="col-sm-3 col-lg-4 col-lg-offset-1"><img src="images/skyhome-by-ce.png" class="img-responsive hidden-xs" alt="" /></div>
+                        <div class="col-sm-4 col-sm-offset-8 col-lg-4 col-lg-offset-1"><img src="images/skyhome-by-ce.png" class="img-responsive hidden-xs" alt="" /></div>
                     </div>
                 </div>
             </section>
@@ -159,7 +167,7 @@
                     <div class="row formsection-m">
                         <div class="col-md-5 col-smoke-bg phone-box"><img src="images/skyhomes.png" class="img-responsive hidden-xs" alt="" style="max-width:200px; " />
                             <h1 class="col-enq">Private inspections.</h1>
-                            <p>Choose a day that suits you. Simply contact one of our experienced consultants for more info or complete the form shown.</p>
+                            <p>Choose a day that suits you. Simply contact one of our experienced  consultants for more info or complete the form shown.</p>
                             <div class="row">
                                 <div class="col-xs-6">
                                     <h2 class="">Ray</h2>
@@ -170,8 +178,8 @@
                                     <p class="lead text-nowrap white center-block"><span class="glyphicons glyphicons-iphone"></span> 0414 554 992</p>
                                 </div>
                             </div>
-                            <hr class="" style="padding-top:0em; padding-bottom:1.6em; opacity:0.1">
-                            <h3 class="">Display Centres Open 7 Days</h3>
+                            <hr style="padding-top:0em; padding-bottom:1.6em; opacity:0.1">
+                            <h3>Display Centres Open 7 Days</h3>
                             <p>&bull; <strong>560 Lonsdale St</strong>, Melbourne - <small><a class="" href="https://goo.gl/maps/GEFJWBEUZFK2" target="_blank" style="padding-right:1em;">Google Map<span class="glyphicons glyphicons-google-maps"></span></a></small></p>
                             <p>&bull; <strong>171 City Rd</strong>, Southbank - <small><a href="https://goo.gl/maps/Jx3cMskaeYv">Google Map<span class="glyphicons glyphicons-google-maps"></span></a></small></p>
                             <p></p>
