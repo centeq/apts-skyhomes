@@ -26,3 +26,8 @@ images/slider/_notes/dwsync.xml
 *.scssc
 
 .sass-cache/
+*.rb
+
+.sass-cache/1ae16e8958f002e21d1f9ac05aa8484dc3b9cccd/luxury.scssc
+
+.sass-cache/1ae16e8958f002e21d1f9ac05aa8484dc3b9cccd/animation.scssc
