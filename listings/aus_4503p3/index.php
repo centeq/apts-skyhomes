@@ -34,7 +34,7 @@
       <div class="col-xs-12">
         <h1>Stylish, spectacular &amp; sky high</h1>
         <p class="lead">601 Little Lonsdale St, Melbourne</p>
-        <p>Deluxe top floor residence with spacious living area &amp; large rooftop terrace. Upscale features include gas fireplace, timber floorboards, marble and stone finishes, floor to ceiling double glazing and ducted A/C. Current Stamp Duty savings approx. $80,000. </p>
+        <p>Superb top floor residence with spacious living area &amp; large rooftop terrace. Upscale features include gas fireplace, timber floorboards, marble and stone finishes, floor to ceiling double glazing and ducted A/C. Current Stamp Duty savings approx. $80,000. </p>
       </div>
     </div>
     <div class="row button-row">
