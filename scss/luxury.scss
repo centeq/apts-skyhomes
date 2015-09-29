@@ -23,10 +23,15 @@ $color_20: rgb(39, 114, 56);
 $color_21: rgba(255, 255, 255, 0.1);
 $color_22: rgb(225, 225, 225);
 $color_23: rgba(225, 225, 225, 0.5);
+
 //fonts
 $font_0: 'Glyphicons Regular';
+$h_font: 'Open Sans', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$b_font: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 //urls
 $url_0: url('../images/feature.jpg');
+
 //@extend-elements
 //original selectors
 //#stage nav a, #stage nav li
@@ -40,6 +45,7 @@ $url_0: url('../images/feature.jpg');
 	padding: 0;
 	min-width: 120px;
 	text-align: center;
+	font-family: $h_font;
 }
 //original selectors
 //#message, #sky_form_message
@@ -85,28 +91,27 @@ $url_0: url('../images/feature.jpg');
 	width: 100%;
 	height: 100%;
 }
-@charset "UTF-8";
+
 body {
+	
+	font-family: $b_font;
 	background-color: $color_2;
 }
-h1 {
-	font-weight: 300;
-	strong {
-		font-weight: 400;
-	}
-}
+
+
+h1, h2, h3, h4, h5, .lead {
+	font-family: $h_font;}
+
+h1,
 h2 {
 	font-weight: 300;
 	strong {
 		font-weight: 400;
 	}
+	
 }
-h3 {
-	font-weight: 400;
-}
-h4 {
-	font-weight: 400;
-}
+h3,
+h4,
 h5 {
 	font-weight: 400;
 }
@@ -157,6 +162,7 @@ h5 {
 	border-radius: 2px;
 	font-weight: 400;
 	transition: all 100ms ease-out;
+	font-family: $h_font;
 	&:hover {
 		background-color: $white;
 	}
@@ -362,6 +368,7 @@ h5 {
 		z-index: 999;
 		box-shadow: 10px 10px 0 $color_1;
 		overflow: hidden;
+		font-family: $h_font;
 	}
 	.btn.enq_this {
 		display: inline-block;
@@ -706,7 +713,8 @@ form.thinform {
 		background-color: $color_21;
 		color: $white;
 		font-weight: 100;
-		font-style: italic;
+		font-style: italic;		
+		font-family: $h_font;
 	}
 }
 ol.info-icon {

@@ -7,7 +7,8 @@
   margin-top: 12px;
   padding: 0;
   min-width: 120px;
-  text-align: center; }
+  text-align: center;
+  font-family: "Open Sans", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 #sky_form_message, #message {
   display: none;
@@ -25,24 +26,21 @@
   height: 100%; }
 
 body {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #131921; }
 
-h1 {
-  font-weight: 300; }
-  h1 strong {
-    font-weight: 400; }
+h1, h2, h3, h4, h5, .lead {
+  font-family: "Open Sans", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+h1,
 h2 {
   font-weight: 300; }
+  h1 strong,
   h2 strong {
     font-weight: 400; }
 
-h3 {
-  font-weight: 400; }
-
-h4 {
-  font-weight: 400; }
-
+h3,
+h4,
 h5 {
   font-weight: 400; }
 
@@ -93,7 +91,8 @@ h5 {
   border-radius: 2px;
   font-weight: 400;
   -webkit-transition: all 100ms ease-out;
-          transition: all 100ms ease-out; }
+          transition: all 100ms ease-out;
+  font-family: "Open Sans", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .btn:hover {
     background-color: white; }
   .btn.enq_this {
@@ -277,7 +276,8 @@ h5 {
     color: white;
     z-index: 999;
     box-shadow: 10px 10px 0 rgba(0, 0, 20, 0.1);
-    overflow: hidden; }
+    overflow: hidden;
+    font-family: "Open Sans", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
   .btn.enq_this {
     display: inline-block;
@@ -565,7 +565,8 @@ form.thinform div.input-group {
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
   font-weight: 100;
-  font-style: italic; }
+  font-style: italic;
+  font-family: "Open Sans", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 ol.info-icon {
   margin: 0;
