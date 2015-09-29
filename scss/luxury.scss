@@ -102,17 +102,14 @@ body {
 h1, h2, h3, h4, h5, .lead {
 	font-family: $h_font;}
 
-h1,
-h2 {
+h1,h2 {
 	font-weight: 300;
 	strong {
 		font-weight: 400;
 	}
 	
 }
-h3,
-h4,
-h5 {
+h3,h4,h5 {
 	font-weight: 400;
 }
 .lead {
