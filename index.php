@@ -123,7 +123,7 @@
                                 if (isset($fname)) { echo $fname.', welcome';} 
                                 else { echo 'Welcome'; }
                                 ?> </strong> to the peak of inner-city living.</h1>
-							<p>We’re pleased to introduce these spectacular 3 bedroom residences featuring sky-high views and stunning interior design. Priced from $1.49M for the ultimate inner-city lifestyle.</p>
+							<p>We’re pleased to introduce these spectacular 3 bedroom residences featuring sky-high views and stunning interior design. Priced from $1.49m for the ultimate inner-city lifestyle.</p>
 						</div>
 						<div class="col-sm-4 col-sm-offset-8 col-lg-4 col-lg-offset-1"><img src="images/skyhome-by-ce.png" class="img-responsive hidden-xs" alt="" /></div>
 					</div>
