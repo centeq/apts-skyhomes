@@ -137,23 +137,23 @@
 				</div>
 				<div class="container listing">
 					<?php
-                    $lotid = 'aus_4502p2';
-                    include 'listings/aus_4502p2/index.php'; ?>
+						$lotid = 'aus_4502p2';
+						include 'listings/aus_4502p2/index.php'; ?>
 				</div>
 				<div class="container listing">
 					<?php
-                    $lotid = 'm1_4503ph3';
-                    include 'listings/m1_4503ph3/index.php'; ?>
+						$lotid = 'm1_4503ph3';
+						include 'listings/m1_4503ph3/index.php'; ?>
 				</div>
 				<div class="container listing">
 					<?php
-                    $lotid = 'm1_4501ph1';
-                    include 'listings/m1_4501ph1/index.php'; ?>
+						$lotid = 'm1_4501ph1';
+						include 'listings/m1_4501ph1/index.php'; ?>
 				</div>
 				<div class="container listing">
 					<?php
-                    $lotid = 'sbc_4703z';
-                    include 'listings/sbc_4703z/index.php'; ?>
+						$lotid = 'sbc_4703z';
+						include 'listings/sbc_4703z/index.php'; ?>
 				</div>
 			</section>
 			<section id="contact" class="formsection dark_bg white paddit">
@@ -165,11 +165,15 @@
 							<div class="row">
 								<div class="col-xs-6">
 									<h2 class="">Ray</h2>
-									<p class="lead text-nowrap white center-block"><span class="glyphicons glyphicons-iphone"></span> 0422 113 738</p>
+									<p class="lead text-nowrap white center-block"><span class="glyphicons glyphicons-iphone"></span> <a href="tel:+61422-113-738" class="tel">0422 113 738</a></p>
 								</div>
 								<div class="col-xs-6">
 									<h2 class="">Jen</h2>
-									<p class="lead text-nowrap white center-block"><span class="glyphicons glyphicons-iphone"></span> 0414 554 992</p>
+									<p class="lead text-nowrap white center-block"><span class="glyphicons glyphicons-iphone"></span> <a href="tel:+61414-554-992" class="tel">0414 554 992</a></p>
+								</div>
+								<div class="col-xs-6">
+									<h2 class="">Rena</h2>
+									<p class="lead text-nowrap white center-block"><span class="glyphicons glyphicons-iphone"></span> <a href="tel:+61-413-787-660" class="tel">0413 787 660</a></p>
 								</div>
 							</div>
 							<hr style="padding-top:0em; padding-bottom:1.6em; opacity:0.1">
@@ -182,20 +186,19 @@
 						<div id="sky_form" class="sky_form col-md-6 col-md-offset-1 ">
 							<div class="form_styling kaff_bg" data-sr='enter top'>
 								<?php
-                                    if ($form_thin === true) {
-                                        include_once 'form_thin.php';
-                                    } else {
-                                        include_once 'form_full.php';
-                                    }
-                                    ?>
+									if ($form_thin === true) {
+											include_once 'form_thin.php';
+									} else {
+											include_once 'form_full.php';
+									}
+									?>
 									<div id="sky_form_message" class="">
 										<div id="no_appoint">
 											<h1 class="white"><span class="">Thank you</span> for contacting us.</h1>
 											<p>A Central Equity consultant will reply shortly. Visit our <a style="text-decoration:underline;" href="http://www.centralequity.com.au<?php if (isset($_GET['id'])) {
     echo '/?id='.$_GET['id'];
 }?>" target="_blank" class="white">home page</a> for more info on<strong> Central Equity</strong>.</p>
-											<p class="lead">Our on-site display is open 7 days.
-												<br> Visit us today at <strong>560 Lonsdale Street, Melbourne</strong></p>
+							
 											<p>If you requested further information we will send it to you shortly.</p>
 										</div>
 										<div class="response"></div>

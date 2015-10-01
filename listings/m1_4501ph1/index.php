@@ -35,7 +35,7 @@
       <div class="col-xs-12">
         <h1>        Double storey penthouse with 2 terraces</h1>
         <p class="lead">618 Lonsdale St, Melbourne</p>
-        <p>High up on the 45th floor overlooking the city below, this truly exceptional penthouse features a spectacular master bedroom with 5 metre ceiling and glamorous ensuite, formal living/dining area with a gas fireplace set over a marble hearth, deluxe Miele kitchen with adjoining second living area, private study, 2 large terraces and a lock-up double garage. The current Stamp Duty savings on this residence are in excess of $100,000.</p>
+        <p>High up on the 45th floor overlooking the city below, this truly exceptional penthouse features a spectacular master bedroom with 5 metre ceiling and glamorous ensuite, formal living/dining area with a gas fireplace set over a marble hearth, deluxe Miele kitchen with adjoining second living area, private study, 2 large terraces and a lock-up double garage. The current Stamp Duty savings on this residence are in excess of $50,000.</p>
       </div>
     </div>
     <div class="row button-row">
