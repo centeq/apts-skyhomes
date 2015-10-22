@@ -69,6 +69,7 @@
 	</head>
 
 	<body>
+	
 		<section id="stage">
 			<nav class="navbar navbar-fixed-top">
 				<div class="container">
@@ -113,7 +114,10 @@
 				<div id="heroslides_prev"><span class="glyphicons glyphicons-chevron-left"></span></div>
 			</div>
 		</section>
-		<div id="page">
+		<div id="page">		
+		<!-- indo -->
+		<?php include('../phpinc/indo.php')	?>	
+		<!-- /indo -->			
 			<section id="statement">
 				<div class="container">
 					<div class="row ">
